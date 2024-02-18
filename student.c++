@@ -19,6 +19,9 @@ class Student{
             collegeName= coll;
             collegeCode = code;
         }
+       ~Student(){
+           cout<<"i am Dead"<<endl;
+       }
         friend void displayPrivate(Student);
 };
 
