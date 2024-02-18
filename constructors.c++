@@ -22,6 +22,9 @@ class Student{
         cout<<"full name is "<<fullName<<endl;
         cout<<"sem percentage is "<<semPercentage<<endl;
     }
+    ~Student(){
+        cout<<"i am Dead"<<endl;
+    }
 };
 int main(){
     Student s1;
